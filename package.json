@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/webdevbiv/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "webdevbiv webdevbiv@gmail.com",
@@ -26,6 +26,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@vimeo/player": "^2.16.2",
     "simplelightbox": "^2.10.1"
   }
 }
