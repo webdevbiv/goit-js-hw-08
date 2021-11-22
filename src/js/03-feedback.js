@@ -28,11 +28,11 @@ function saveUserInput(e) {
     userEmail = refs.email.value
     userMessage = refs.message.value
     const userInputs = { email: `${userEmail}`, message: `${userMessage}` }
-    console.log(userInputs);
+    // console.log(userInputs);
     const userInputsJSON = JSON.stringify(userInputs)
-    console.log(typeof userInputsJSON);
+    // console.log(typeof userInputsJSON);
     localStorage.setItem('feedback-form-state', `${userInputsJSON}`)
-    console.log('in storage ' + localStorage.getItem('feedback-form-state'));
+    // console.log('in storage ' + localStorage.getItem('feedback-form-state'));
 }
 
 refs.form.addEventListener('submit', handleSubmit)
