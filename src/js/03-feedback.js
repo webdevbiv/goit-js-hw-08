@@ -22,13 +22,13 @@ if (localUserInputs !== null) {
 
 refs.form.addEventListener('input', _.throttle(saveUserInput, 500))
 function saveUserInput(e) {
-    console.log(localUserInputs);
+    // console.log(localUserInputs);
     // let userEmail = refs.email.value
     // let userMessage = refs.message.value
     userEmail = refs.email.value
     userMessage = refs.message.value
     const userInputs = { email: `${userEmail}`, message: `${userMessage}` }
-    // console.log(userInputs);
+    console.log(userInputs);
     const userInputsJSON = JSON.stringify(userInputs)
     // console.log(typeof userInputsJSON);
     localStorage.setItem('feedback-form-state', `${userInputsJSON}`)
