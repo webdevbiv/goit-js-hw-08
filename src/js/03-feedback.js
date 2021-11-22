@@ -13,7 +13,7 @@ let userEmail = ''
 let userMessage = ''
 
 const localUserInputs = JSON.parse(localStorage.getItem('feedback-form-state'))
-console.log(localUserInputs);
+// console.log(localUserInputs);
 if (localUserInputs !== null) {
     refs.email.value = localUserInputs.email
     refs.message.value = localUserInputs.message
