@@ -1,4 +1,4 @@
-import { throttle } from 'lodash';
+
 const _ = require('lodash');
 const iframe = document.querySelector('iframe');
 const player = new Vimeo.Player(iframe);
