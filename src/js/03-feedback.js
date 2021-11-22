@@ -38,7 +38,7 @@ function saveUserInput(e) {
 refs.form.addEventListener('submit', handleSubmit)
 function handleSubmit(event) {
     event.preventDefault();
-    console.log(`email: ${refs.email.value}, password:${refs.message.value}`);
+    console.log(`email: ${refs.email.value}, message:${refs.message.value}`);
     localStorage.clear()
     event.currentTarget.reset()
 }
